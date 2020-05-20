@@ -1,0 +1,25 @@
+<head>
+    <link rel="stylesheet" type = "text/css" href="index.css">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+</head>
+<body>
+
+    <video autoplay playsinline muted id="webcam"></video>
+    <!----Console with image data---->
+    <div id = "console">
+        Questa è la console di output. Qualunuqe informazione relativa ai rilevamenti verrà mostrata qui.
+    </div>
+
+    <!----Controls for applications---->
+    <div id = "controls">   
+        <button type="button" id="pictureButton">Take Picture</button>
+    </div>
+
+    <!----Scripts loaded---->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"> </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
